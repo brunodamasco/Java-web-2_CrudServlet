@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SISCOM Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastro de Clientes</h1>
+        <form id="cadForm" action="cadCliente?cmd=salvar" method="post">
+            <label>Nome</label>
+            <input name="nome" type="text" size="30"/> <br/>
+            <label>CPF</label>
+            <input name="cpf" type="text" size="15"/> <br/>
+            <label>RG</label>
+            <input name="rg" type="text" size="20" maxlength="16"/> <br/>   
+            <label>E-mail</label>
+            <input name="email" type="text" size="30"/> <br/>
+            <label>Telefone</label>
+            <input name="tel" type="text" size="30"/> <br/>
+            <input type="submit" value="salvar" />
+            <input type="reset" value="limpar" />
+        </form>
+        <div>TODO write content</div>
+    </body>
+</html>
